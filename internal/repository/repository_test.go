@@ -2,10 +2,11 @@ package repository
 
 import (
 	"database/sql"
-	_ "github.com/mattn/go-sqlite3"
-	"go_appeals/models"
+	"go_appeals/internal/models"
 	"testing"
 	"time"
+
+	_ "github.com/mattn/go-sqlite3"
 )
 
 func newTestRepository(t *testing.T) (*AppealRepository, func()) {

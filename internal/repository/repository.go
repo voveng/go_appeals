@@ -6,9 +6,10 @@ import (
 	"log"
 	"time"
 
+	"go_appeals/internal/models"
+
 	"github.com/google/uuid"
 	_ "github.com/mattn/go-sqlite3"
-	"go_appeals/models"
 )
 
 type AppealRepository struct {

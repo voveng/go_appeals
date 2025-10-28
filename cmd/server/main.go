@@ -9,12 +9,13 @@ import (
 	"syscall"
 	"time"
 
+	"go_appeals/internal/handlers"
+	"go_appeals/internal/repository"
+	"go_appeals/internal/services"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/recover"
-	"go_appeals/handlers"
-	"go_appeals/repository"
-	"go_appeals/services"
 )
 
 func main() {
@@ -82,4 +83,3 @@ func main() {
 	}
 	log.Println("Server gracefully stopped.")
 }
-

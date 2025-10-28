@@ -3,10 +3,11 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/gofiber/fiber/v2"
-	"go_appeals/models"
-	"go_appeals/services"
+	"go_appeals/internal/models"
+	"go_appeals/internal/services"
 	"time"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 type Handlers struct {

@@ -2,8 +2,8 @@ package services
 
 import (
 	"fmt"
-	"go_appeals/models"
-	"go_appeals/repository"
+	"go_appeals/internal/models"
+	"go_appeals/internal/repository"
 	"time"
 )
 
